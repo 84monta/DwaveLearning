@@ -15,7 +15,6 @@
 # Import the functions and packages that are used
 from dwave.system import EmbeddingComposite, DWaveSampler, LeapHybridSampler
 from neal import SimulatedAnnealingSampler
-from dimod import SampleSet
 
 # Define the problem as a Python dictionary
 Q = {('B','B'): 1, 
